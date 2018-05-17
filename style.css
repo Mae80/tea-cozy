@@ -131,9 +131,10 @@ margin: 60px auto 0 auto;
   height: 200px;
 }
 
-h1, h2 {
+h1, h2, p {
   color: white;
   text-align: center;
+  font-weight: bold;
 }
 
 /* locations sections */
