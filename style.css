@@ -39,6 +39,7 @@ header {
 nav {
   font-size: 14px;
   font-weight: bold;
+  margin-right: 40px;
 }
 
 nav a {
