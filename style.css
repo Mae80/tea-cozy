@@ -191,6 +191,17 @@ h3 {
 
 
 
+/*footer section*/
+
+footer {
+  height: 22px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 0 40px 40px;
+}
+
+
+
 /*locations old
 .locations-container {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
