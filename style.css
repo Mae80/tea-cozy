@@ -57,7 +57,7 @@ nav a {
 
 main {
   position: relative;
-  top: 83px;
+  top: 80px;
 }
 
 .hero-container {
@@ -90,10 +90,11 @@ main {
 .featured-tea-container{
 
 width: 1200px;
-margin: 0 auto;
+margin: 60px auto 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+
 
 }
 
@@ -112,7 +113,7 @@ margin: 0 auto;
 .cards {
   /*background-color: #ffc200;*/
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -135,6 +136,61 @@ h1, h2 {
   text-align: center;
 }
 
+/* locations sections */
+
+.locations-container {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  height: 570px;
+  width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+
+}
+
+h2, h3 {
+  text-align: center;
+  color: white;
+}
+
+
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+
+
+
+}
+
+.address-box {
+  background-color: #000;
+  color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+
+}
+
+h3 {
+  font-weight: normal;
+}
+
+
+
+/*locations old
 .locations-container {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-size: cover;
@@ -145,7 +201,7 @@ h1, h2 {
   /*display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;*/
+  justify-content: center;
 }
 
 .locations {
@@ -166,4 +222,4 @@ h1, h2 {
   align-items: center;
   justify-content: center;
   margin: 0 10px;
-}
+}*/
