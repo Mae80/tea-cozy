@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+
 }
 
 
@@ -16,8 +20,9 @@ body {
 
 header {
   padding: 10px 35px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ffffff;
   background-color: #000;
+  position: fixed;
 }
 
 .logo img{
@@ -42,4 +47,30 @@ nav a {
   flex-grow: 115;
   text-align: right;
   margin-right: 20px;
+}
+
+
+/* Main section */
+
+/* Hero section*/
+
+.hero-container {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+width: 1200px;
+height: 770px;
+margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  background-color: #000;
+  color: white;
+  width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
